@@ -1,0 +1,34 @@
+//For Loops 
+var person = [{fname:"Ilaks",lname:"ravi",age:"18"},{fname:"Kavs",lname:"ravindran",age:"25"}];
+for(var i=0;i<person.length;i++)
+{
+   console.log(person[i].fname);
+}
+
+//For in Loops
+var employee = {
+  fname: "Nick",
+  lname: "Jonas",
+  age: 26
+}; 
+for (let x in employee) {
+  console.log(x+": "+employee[x])
+}
+
+//ForEach Loop
+var fruits = [{
+  name :"Banana",
+  color:"yellow",
+  fav:"yes"
+}]
+fruits.forEach(function1);
+function function1(value){
+  console.log(value);
+}
+
+//For of
+const colors = ['red', 'green', 'yellow'];
+
+for (const element of colors) {
+  console.log(element);
+}
