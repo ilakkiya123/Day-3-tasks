@@ -2,7 +2,7 @@
 var person = [{fname:"Ilaks",lname:"ravi",age:"18"},{fname:"Kavs",lname:"ravindran",age:"25"}];
 for(var i=0;i<person.length;i++)
 {
-   console.log(person[i].fname);
+   console.log(person[i]);
 }
 
 //For in Loops
@@ -13,6 +13,12 @@ var employee = {
 }; 
 for (let x in employee) {
   console.log(x+": "+employee[x])
+}
+
+//For in Loops with array of Json
+var employee = [{fname: "Nick",lname: "Jonas",age: 26},{fname: "Lucy",lname: "Jenifer",age: 20}];
+for (let x in employee) {
+  console.log(employee[x])
 }
 
 //ForEach Loop
